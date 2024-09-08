@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Column</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #333; }
+        .container { max-width: 600px; margin: 0 auto; }
+        .form-group { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Select Column for Analysis</h1>
+        <form method="post" action="{{ url_for('analyze') }}">
+            <input type="hidden" name="file_path" value="{{ file_path }}">
+            <input type="hidden" name="sep" value="{{ sep }}">
+            <input type="hidden" name="encoding" value="{{ encoding }}">
+            <input type="hidden" name="age_column" value="{{ age_column }}">
+            <input type="hidden" name="sex_column" value="{{ sex_column }}">
+
+            <div class="form-group">
+                <label for="age_from">Age From ({{ age_column }}):</label>
+                <input type="number" name="age_from" id="age_from" required>
+            </div>
+
+            <div class="form-group">
+                <label for="age_to">Age To ({{ age_column }}):</label>
+                <input type="number" name="age_to" id="age_to" required>
+            </div>
+
+            <div class="form-group">
+                <label for="sex_value">Sex Value ({{ sex_column }}: {{ ', '.join(sex_range) }}):</label>
+                <input type="text" name="sex_value" id="sex_value" required>
+            </div>
+
+            <div class="form-group">
+                <label for="column">Select Result Column:</label>
+                <select name="column" id="column" required>
+                    {% for col in columns %}
+                    <option value="{{ col }}">{{ col }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <button type="submit">Analyze</button>
+        </form>
+    </div>
+</body>
+</html>

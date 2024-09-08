@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benford's Law Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ece9e6, #ffffff);
+            color: #333;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            padding: 20px 0;
+            margin: 0;
+            background-color: #f7f7f7;
+            border-bottom: 1px solid #ddd;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .left, .right {
+            padding: 20px;
+            flex: 1;
+        }
+        .left {
+            background: #f0f0f0;
+            border-right: 1px solid #ddd;
+        }
+        .right {
+            background: #fafafa;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-section {
+            margin-bottom: 40px;
+        }
+        .plotly-graph-div {
+            width: 100%;
+            height: 300px;
+        }
+        .results {
+            margin-top: 20px;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+        .form-group input, .form-group select, .form-group button {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        .form-group button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #45a049;
+        }
+        .highlight {
+            color: red;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Benford's Law Checker</h1>
+    <div class="container">
+        <div class="left">
+            <div class="form-section">
+                <h2>Upload CSV File</h2>
+                <form method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="file">Upload CSV file:</label>
+                        <input type="file" name="file" id="file" required>
+                    </div>
+                    <button type="submit">Upload</button>
+                </form>
+            </div>
+            <div class="form-section">
+                <h2>Select a File for Analysis</h2>
+                <form method="post" id="file-select-form">
+                    <div class="form-group">
+                        <label for="selected_file">Select a file:</label>
+                        <select name="selected_file" id="selected_file" required>
+                            <option value="" selected>None</option>
+                            {% for file in files %}
+                            <option value="{{ file }}" {% if file == selected_file %}selected{% endif %}>{{ file }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </form>
+            </div>
+            {% if columns %}
+            <div class="form-section">
+                <h2>Select Parameters</h2>
+                <form id="parameters-form">
+                    <input type="hidden" name="file_path" value="{{ file_path }}">
+                    <input type="hidden" name="age_column" value="{{ age_column }}">
+                    <input type="hidden" name="sex_column" value="{{ sex_column }}">
+                    <div class="form-group">
+                        <label for="age_from">Age From ({{ age_column }}: {{ age_range.min() }}-{{ age_range.max() }}):</label>
+                        <input type="number" name="age_from" id="age_from" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="age_to">Age To ({{ age_column }}):</label>
+                        <input type="number" name="age_to" id="age_to" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sex_value">Sex Value ({{ sex_column }}: {{ ', '.join(sex_range) }}):</label>
+                        <input type="text" name="sex_value" id="sex_value" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="column">Select Result Column:</label>
+                        <select name="column" id="column" required>
+                            <option value="" selected>None</option>
+                            {% for col in columns %}
+                            <option value="{{ col }}">{{ col }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <button type="submit">Analyze</button>
+                </form>
+            </div>
+            {% endif %}
+            <div class="result-section">
+                <h2>Analysis Result</h2>
+                <div id="plotly-div" class="plotly-graph-div"></div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="referenz-section">
+                <h3>Referenzintervall Analyse</h3>
+                <div class="form-group">
+                    <label for="referenz_code">Select Medical Data:</label>
+                    <select id="referenz_code" required>
+                        <option value="" selected>None</option>
+                        {% for code in unique_codes %}
+                        <option value="{{ code }}">{{ code }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div id="referenz-result" style="margin-top: 20px;"></div>
+                <div id="interval-message" style="color: red; margin-top: 10px;"></div>
+                <div class="form-group">
+                    <button id="interval-analyze-btn" style="display:none;">Intervall Analyse</button>
+                </div>
+            </div>
+            <div class="result-section">
+                <h2>Intervall Analysis Results</h2>
+                <div id="plotly-div-all" class="plotly-graph-div"></div>
+                <div id="plotly-div-normal" class="plotly-graph-div"></div>
+            </div>
+            <div class="results">
+                <h3>Statistical Tests</h3>
+                <form id="stat-tests-form">
+                    <input type="hidden" name="digit_freq" id="digit_freq">
+                    <input type="hidden" name="benford_freq" id="benford_freq">
+                    <input type="hidden" name="total_count" id="total_count">
+                    <input type="hidden" name="digit_freq_all" id="digit_freq_all">
+                    <input type="hidden" name="total_count_all" id="total_count_all">
+                    <input type="hidden" name="digit_freq_normal" id="digit_freq_normal">
+                    <input type="hidden" name="total_count_normal" id="total_count_normal">
+                    <div class="form-group">
+                        <label for="data_source">Select Data Source:</label>
+                        <select name="data_source" id="data_source" required>
+                            <option value="" selected>None</option>
+                            <option value="input_range_data">Input Range Data</option>
+                            <option value="intervall_data">Intervall Data</option>
+                            <option value="normal_data">Normal Range Data</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="analysis_methods">Select Analysis Methods:</label>
+                        <select name="analysis_methods" id="analysis_methods" required>
+                            <option value="" selected>None</option>
+                            <option value="chi_square_test">Chi-Square Test</option>
+                            <option value="z_test">Z-Test</option>
+                            <option value="measure_of_distance">Measure of Distance</option>
+                            <option value="regression_measure">Regression Measure</option>
+                        </select>
+                    </div>
+                </form>
+                <div id="test-result" style="margin-top: 20px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            let ageFrom, ageTo, sexValue;
+
+            $('#selected_file').on('change', function() {
+                $('#file-select-form').submit();
+            });
+
+            $('#parameters-form').on('submit', function(event) {
+                event.preventDefault();
+                ageFrom = parseInt($('#age_from').val());
+                ageTo = parseInt($('#age_to').val());
+                sexValue = $('#sex_value').val().toLowerCase();
+                $.ajax({
+                    url: '{{ url_for("analyze") }}',
+                    method: 'POST',
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        if (response.error) {
+                            alert(response.error);
+                        } else {
+                            $('#plotly-div').html(response.plot_html);
+                            $('#digit_freq').val(response.digit_freq.join(','));
+                            $('#benford_freq').val(response.benford_freq.join(','));
+                            $('#total_count').val(response.total_count);
+                            $('#test-result').empty();
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Error: ' + error);
+                    }
+                });
+            });
+
+            $('#analysis_methods').on('change', function() {
+                $('#stat-tests-form').submit();
+            });
+
+            $('#stat-tests-form').on('submit', function(event) {
+                event.preventDefault();
+                $.ajax({
+                    url: '{{ url_for("stat_tests") }}',
+                    method: 'POST',
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        if (response.error) {
+                            alert(response.error);
+                        } else {
+                            $('#test-result').empty();
+                            if (response.plot_html) {
+                                $('#test-result').append(response.plot_html);
+                            }
+                            if (response.chi_square_test) {
+                                $('#test-result').append('<p>Chi-Square Test: χ² = ' + response.chi_square_test.chi2_stat.toFixed(4) + '</p>');
+                                $('#test-result').append('<p>' + response.chi_square_test.result + '</p>');
+                            }
+                            if (response.z_test) {
+                                let z_scores = response.z_test.z_score.map(score => Math.abs(score) > 1.96 ? '<span class="highlight">' + score.toFixed(2) + '</span>' : score.toFixed(2));
+                                $('#test-result').append('<p>Z-Test Scores: ' + z_scores.join(', ') + '</p>');
+                                $('#test-result').append('<p>' + response.z_test.result + '</p>');
+                            }
+                            if (response.measure_of_distance) {
+                                $('#test-result').append('<p>Measure of Distance: ' + response.measure_of_distance.distance.toFixed(4) + '</p>');
+                            }
+                            if (response.regression_measure) {
+                                $('#test-result').append('<p>Regression Measure: Slope = ' + response.regression_measure.slope.toFixed(4) + ', Intercept = ' + response.regression_measure.intercept.toFixed(4) + '</p>');
+                                if (response.regression_plot_html) {
+                                    $('#test-result').append(response.regression_plot_html);
+                                }
+                            }
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Error: ' + error);
+                    }
+                });
+            });
+
+            $('#data_source').on('change', function() {
+                $('#analysis_methods').val('');
+            });
+
+            $('#referenz_code').on('change', function() {
+                let code = $(this).val();
+                $.ajax({
+                    url: '{{ url_for("get_intervals") }}',
+                    method: 'POST',
+                    data: {
+                        code: code,
+                        age_from: ageFrom,
+                        age_to: ageTo,
+                        sex_value: sexValue
+                    },
+                    success: function(response) {
+                        if (response.error) {
+                            alert(response.error);
+                        } else {
+                            let resultDiv = $('#referenz-result');
+                            resultDiv.empty();
+                            if (response.intervals.length > 0) {
+                                response.intervals.forEach(function(interval, index) {
+                                    let isMatch = response.interval_matches[index] ? 'class="highlight"' : '';
+                                    resultDiv.append('<p ' + isMatch + '>Age Range: ' + interval.ALTERVON + ' - ' + interval.ALTERBIS + ', Norm Range: ' + interval.NORMVON + ' - ' + interval.NORMBIS + ', Sex: ' + interval.SEX + '</p>');
+                                });
+                                $('#interval-analyze-btn').show();
+                            } else {
+                                resultDiv.append('<p>No intervals found for the selected medical data.</p>');
+                                $('#interval-analyze-btn').hide();
+                            }
+                            if (!response.interval_matches.includes(true)) {
+                                $('#interval-message').text('The entered age range and sex do not match any interval.');
+                            } else {
+                                $('#interval-message').empty();
+                            }
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Error: ' + error);
+                    }
+                });
+            });
+
+            $('#interval-analyze-btn').on('click', function(event) {
+                event.preventDefault();
+                let code = $('#referenz_code').val();
+                $.ajax({
+                    url: '{{ url_for("interval_analyze") }}',
+                    method: 'POST',
+                    data: {
+                        code: code,
+                        age_from: ageFrom,
+                        age_to: ageTo,
+                        sex_value: sexValue,
+                        file_path: $('input[name="file_path"]').val(),
+                        column: $('#column').val()
+                    },
+                    success: function(response) {
+                        if (response.error) {
+                            alert(response.error);
+                        } else {
+                            $('#plotly-div-all').html(response.plot_html_all);
+                            $('#plotly-div-normal').html(response.plot_html_normal);
+                            $('#digit_freq_all').val(response.digit_freq_all.join(','));
+                            $('#total_count_all').val(response.total_count_all);
+                            $('#digit_freq_normal').val(response.digit_freq_normal.join(','));
+                            $('#total_count_normal').val(response.total_count_normal);
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Error: ' + error);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

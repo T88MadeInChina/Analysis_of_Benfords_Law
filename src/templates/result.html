@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benford's Law Result</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #333; }
+        .container { max-width: 600px; margin: 0 auto; }
+        .plot { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Benford's Law Result</h1>
+        <div class="plot">
+            <img src="{{ plot_url }}" alt="Benford's Law Plot">
+        </div>
+        <a href="{{ url_for('index') }}">Back to Upload</a>
+    </div>
+</body>
+</html>

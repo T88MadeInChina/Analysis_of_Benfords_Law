@@ -1,0 +1,761 @@
+CODE;ANAKURZ;BESCHREIBUNG;EINHEIT;SEX;ZEITRAUM;ALTERVON;ALTERBIS;NORMVON;NORMBIS
+BKS1;BKS 1h;BKS 1h;mm/h;M;Jahr;0;49;0;15
+BKS1;BKS 1h;BKS 1h;mm/h;M;Jahr;50;123;0;20
+BKS1;BKS 1h;BKS 1h;mm/h;W;Jahr;0;49;0;20
+BKS1;BKS 1h;BKS 1h;mm/h;W;Jahr;50;123;0;30
+LEUN;Leuk kor;Leuko m.Normo.korr;10^9/l;AL;Woche;0;1;9;30
+LEUN;Leuk kor;Leuko m.Normo.korr;10^9/l;AL;Woche;1;4;5;21
+LEUN;Leuk kor;Leuko m.Normo.korr;10^9/l;AL;Monat;1;24;5,5;17
+LEUN;Leuk kor;Leuko m.Normo.korr;10^9/l;AL;Jahr;2;15;5;15
+LEUN;Leuk kor;Leuko m.Normo.korr;10^9/l;AL;Jahr;15;123;4;11
+LEU;Leuko;Leukozyten;10^9/l;AL;Woche;0;1;9;30
+LEU;Leuko;Leukozyten;10^9/l;AL;Woche;1;4;5;21
+LEU;Leuko;Leukozyten;10^9/l;AL;Monat;1;24;5,5;17
+LEU;Leuko;Leukozyten;10^9/l;AL;Jahr;2;15;5;15
+LEU;Leuko;Leukozyten;10^9/l;AL;Jahr;15;123;3,5;10
+ERY;Ery;Erythrozyten;10^12/l;AL;Tag;0;7;4;6,8
+ERY;Ery;Erythrozyten;10^12/l;AL;Tag;8;120;3,9;5,9
+ERY;Ery;Erythrozyten;10^12/l;AL;Monat;3;12;3,6;5,3
+ERY;Ery;Erythrozyten;10^12/l;AL;Jahr;1;15;3,8;5,8
+ERY;Ery;Erythrozyten;10^12/l;M;Jahr;16;123;4,1;5,4
+ERY;Ery;Erythrozyten;10^12/l;W;Jahr;16;123;3,7;5
+HB;Hb;Haemoglobin;g/dl;AL;Monat;0;1;13;20
+HB;Hb;Haemoglobin;g/dl;AL;Monat;1;12;11;17
+HB;Hb;Haemoglobin;g/dl;AL;Jahr;1;10;11;15
+HB;Hb;Haemoglobin;g/dl;M;Jahr;10;16;12;16
+HB;Hb;Haemoglobin;g/dl;M;Jahr;16;123;13;16,5
+HB;Hb;Haemoglobin;g/dl;W;Jahr;10;16;11,5;15
+HB;Hb;Haemoglobin;g/dl;W;Jahr;16;123;11;14
+HK;Hk;Haematokrit;l/l;AL;Woche;0;3;0,4;0,65
+HK;Hk;Haematokrit;l/l;AL;Woche;4;7;0,38;0,5
+HK;Hk;Haematokrit;l/l;AL;Monat;2;12;0,35;0,45
+HK;Hk;Haematokrit;l/l;AL;Jahr;1;15;0,32;0,45
+HK;Hk;Haematokrit;l/l;M;Jahr;16;123;0,4;0,46
+HK;Hk;Haematokrit;l/l;W;Jahr;16;123;0,36;0,43
+MCV;MCV;MCV;fl;AL;Woche;0;1;94;135
+MCV;MCV;MCV;fl;AL;Woche;1;12;80;120
+MCV;MCV;MCV;fl;AL;Monat;3;36;74;100
+MCV;MCV;MCV;fl;AL;Jahr;3;10;70;95
+MCV;MCV;MCV;fl;AL;Jahr;10;123;80;97
+MCH;MCH;MCH;pg/ERY;AL;Woche;0;1;30;40
+MCH;MCH;MCH;pg/ERY;AL;Woche;1;12;23;38
+MCH;MCH;MCH;pg/ERY;AL;Monat;3;36;24;33
+MCH;MCH;MCH;pg/ERY;AL;Jahr;3;17;25;32
+MCH;MCH;MCH;pg/ERY;AL;Jahr;17;123;28;33
+MCHC;MCHC;MCHC;g/dl;AL;Monat;0;1;28;35
+MCHC;MCHC;MCHC;g/dl;AL;Monat;1;12;32;36
+MCHC;MCHC;MCHC;g/dl;AL;Jahr;1;123;33;37
+RDW;RDW;Ery-Verteil.(Anisoz.);fl;AL;Jahr;0;123;41;52
+PDW;PDW;Thrombo-Verteil.br;fl;AL;Jahr;0;123;9;14
+PLCR;PLCR;Anteil großer Thrombo.;%;AL;Jahr;0;123;15;35
+MPV;MPV;MPV;fl;W;Jahr;0;123;9,1;11,9
+MPV;MPV;MPV;fl;M;Jahr;0;123;9,3;12,1
+THRO;Thrombo;Thrombozyten;10^9/l;AL;Jahr;0;1;200;666
+THRO;Thrombo;Thrombozyten;10^9/l;AL;Jahr;1;15;200;500
+THRO;Thrombo;Thrombozyten;10^9/l;AL;Jahr;15;123;140;400
+NOBL;Normobl;Normoblasten;%;AL;Jahr;0;123;0;3
+NOAB;Nobl.abs;Normoblasten abs.;10^9/L;AL;Jahr;0;123;;0,01
+THRE;Thr.exact.;Thromboz.Exact;10^9/l;AL;Jahr;0;1;355;666
+THRE;Thr.exact.;Thromboz.Exact;10^9/l;AL;Jahr;1;15;200;500
+THRE;Thr.exact.;Thromboz.Exact;10^9/l;AL;Jahr;15;123;140;400
+THRK;Thrk;Thrombokrit;l/l;AL;Jahr;0;123;0,02;0,04
+THRH;Thr.Hep.;Thromboz./Heparin;10^9/l;AL;Jahr;0;1;355;666
+THRH;Thr.Hep.;Thromboz./Heparin;10^9/l;AL;Jahr;1;15;250;500
+THRH;Thr.Hep.;Thromboz./Heparin;10^9/l;AL;Jahr;15;60;200;400
+THRH;Thr.Hep.;Thromboz./Heparin;10^9/l;AL;Jahr;60;123;180;370
+IPF;IPF;unreife Thrombo;%;AL;Jahr;0;123;0,8;6,3
+SEG;Segment;Segmentkernige;%;AL;Monat;0;1;50;65
+SEG;Segment;Segmentkernige;%;AL;Monat;1;12;25;60
+SEG;Segment;Segmentkernige;%;AL;Jahr;1;5;40;50
+SEG;Segment;Segmentkernige;%;AL;Jahr;6;10;50;65
+SEG;Segment;Segmentkernige;%;AL;Jahr;11;123;40;75
+BASO;Baso;Basophile;%;AL;Jahr;0;123;0;1
+EOS;Eos;Eosinophile;%;AL;Jahr;0;123;0;7
+LYMP;Lympho;Lymphozyten;%;AL;Tag;0;1;25;35
+LYMP;Lympho;Lymphozyten;%;AL;Tag;1;365;40;65
+LYMP;Lympho;Lymphozyten;%;AL;Jahr;1;5;40;50
+LYMP;Lympho;Lymphozyten;%;AL;Jahr;5;10;30;40
+LYMP;Lympho;Lymphozyten;%;AL;Jahr;11;123;20;50
+MONO;Mono;Monozyten;%;AL;Jahr;0;1;5;12
+MONO;Mono;Monozyten;%;AL;Jahr;1;123;2;8
+STAB;Stab;Stabkernige;%;AL;Monat;0;1;5;15
+STAB;Stab;Stabkernige;%;AL;Monat;1;12;1;5
+STAB;Stab;Stabkernige;%;AL;Jahr;1;123;1;5
+META;Meta;Metamyelozyten;%;AL;Jahr;0;123;0;1
+MYZY;Myelozy;Myelozyten;%;AL;Jahr;0;123;0;1
+PMZY;Promyzy;Promyelozyten;%;AL;Jahr;0;123;0;1
+MYBL;Myelobl;Myeloblasten;%;AL;Jahr;0;123;0;0
+BLAS;Blasten;Blasten;%;AL;Jahr;0;123;0;1
+PLAS;Plasmaz;Plasmazellen;%;AL;Jahr;0;123;0;2
+LYRZ;Ly.Reizf;atyp./reaktive Lymphozyten;%;AL;Jahr;0;123;0;5
+JOLL;Jolly-K;Jolly-Koerperchen;/1000ERY;AL;Jahr;0;123;;40
+FRZO;Fragm.;Fragmentozyten (mikroskop);/1000ERY;AL;Jahr;0;123;;1
+Neut;Neutro.;Neutrophile (auto);%;AL;Monat;0;1;50;70
+Neut;Neutro.;Neutrophile (auto);%;AL;Monat;1;12;30;50
+Neut;Neutro.;Neutrophile (auto);%;AL;Jahr;1;5;40;50
+Neut;Neutro.;Neutrophile (auto);%;AL;Jahr;6;10;50;65
+Neut;Neutro.;Neutrophile (auto);%;AL;Jahr;11;123;40;75
+Lymp;Lympho;Lymphozyten (auto);%;AL;Jahr;0;1;40;65
+Lymp;Lympho;Lymphozyten (auto);%;AL;Jahr;1;5;40;50
+Lymp;Lympho;Lymphozyten (auto);%;AL;Jahr;6;10;30;48
+Lymp;Lympho;Lymphozyten (auto);%;AL;Jahr;11;123;18;50
+Mono;Mono;Monozyten (auto);%;AL;Jahr;0;1;5;12
+Mono;Mono;Monozyten (auto);%;AL;Jahr;1;123;4;11
+Eo;Eos;Eosinophile (auto);%;M;Jahr;0;123;1;8
+Eo;Eos;Eosinophile (auto);%;W;Jahr;0;123;;6
+Baso;Baso;Basophile (auto);%;AL;Jahr;0;123;0;1
+NEAB;Abs.Neut;Absol. Neutrophile;10^9/L;AL;Monat;0;1;6;26
+NEAB;Abs.Neut;Absol. Neutrophile;10^9/L;AL;Monat;1;12;1,5;8,5
+NEAB;Abs.Neut;Absol. Neutrophile;10^9/L;AL;Jahr;1;123;1,6;7
+LYAB;Abs.Lym.;Absol. Lymphozyten;10^9/L;AL;Monat;0;1;2;11
+LYAB;Abs.Lym.;Absol. Lymphozyten;10^9/L;AL;Monat;1;12;4;10,5
+LYAB;Abs.Lym.;Absol. Lymphozyten;10^9/L;AL;Jahr;1;123;1;3
+MOAB;Abs.Mono;Absol. Monozyten;10^9/L;AL;Monat;0;1;0,4;3,1
+MOAB;Abs.Mono;Absol. Monozyten;10^9/L;AL;Monat;1;12;0,05;1,1
+MOAB;Abs.Mono;Absol. Monozyten;10^9/L;AL;Jahr;1;123;0,2;0,7
+EOAB;Abs.Eos;Absol. Eosinophile;10^9/L;M;Jahr;0;123;0,03;0,59
+EOAB;Abs.Eos;Absol. Eosinophile;10^9/L;W;Jahr;0;123;0,01;0,4
+BAAB;Abs.Baso;Absol. Basophile;10^9/L;AL;Jahr;1;123;0;0,1
+IGZ;unr.GZ;unreife Granuloz.%;%;AL;Jahr;1;123;;0,6
+IGZ;unr.GZ;unreife Granuloz.%;%;AL;Tag;0;2;;3
+IGZ;unr.GZ;unreife Granuloz.%;%;AL;Tag;3;7;;2
+IGZ;unr.GZ;unreife Granuloz.%;%;AL;Woche;1;52;;0,1
+IGZAB;unr.GZabs.;unreife Granuloz.abs.;10^9/L;AL;Tag;0;2;;0,9
+IGZAB;unr.GZabs.;unreife Granuloz.abs.;10^9/L;AL;Tag;3;7;;0,5
+IGZAB;unr.GZabs.;unreife Granuloz.abs.;10^9/L;AL;Woche;2;52;;0,1
+IGZAB;unr.GZabs.;unreife Granuloz.abs.;10^9/L;AL;Jahr;1;123;;0,06
+RETZ;RET;Retikulozyten abs.;10^12/l;M;Jahr;0;123;0,025;0,105
+RETZ;RET;Retikulozyten abs.;10^12/l;W;Jahr;0;123;0,02;0,08
+RETI;Reti;Retikulozyten;/1000ERY;AL;Tag;0;3;30;70
+RETI;Reti;Retikulozyten;/1000ERY;AL;Tag;3;30;10;30
+RETI;Reti;Retikulozyten;/1000ERY;AL;Monat;1;12;3;30
+RETI;Reti;Retikulozyten;/1000ERY;AL;Jahr;1;123;4;16
+HFR;hflReti;Reti. hohe Fluoresz.;%;AL;Jahr;0;123;;3
+MFR;mflReti;Reti. mittl. Fluoresz.;%;AL;Jahr;0;123;2;14
+LFR;lflReti;Reti. niedr. Fluoresz.;%;AL;Jahr;0;123;85;98
+IRF;unr.Reti;unreife Retikulozyten;%;M;Jahr;0;123;1,5;17
+IRF;unr.Reti;unreife Retikulozyten;%;W;Jahr;0;123;1,1;15,9
+RETH;RET-Hb;Retikulozyten-Hb;pg/ERY;AL;Jahr;0;123;28,5;34,5
+FRC;FrZy;Poikilozyten;%;AL;Jahr;0;123;;0,2
+FRCAB;FrZab;Poikilozyten abs.;10^12/l;AL;Jahr;0;123;;0,05
+OSRA;Os.Res.b;Osm.Resist.Beginn;%NACL;AL;Jahr;0;6;0;0,46
+OSRA;Os.Res.b;Osm.Resist.Beginn;%NACL;AL;Jahr;7;123;0;0,46
+OSRE;Os.Res.k;Osm.Resist.kompl.;%NACL;AL;Jahr;0;6;0,3;1
+OSRE;Os.Res.k;Osm.Resist.kompl.;%NACL;AL;Jahr;7;123;0,3;1
+TPZ;TPZ;TPZ;%;AL;Jahr;0;123;70;120
+INR;INR;TPZ (INR);INR;AL;Jahr;0;123;;
+PTT;PTT;PTT;s;AL;Monat;0;1;40;60
+PTT;PTT;PTT;s;AL;Monat;1;12;35;50
+PTT;PTT;PTT;s;AL;Jahr;1;123;24;40
+FGCL;Fgen;Fibrinogen;mg/dl;AL;Jahr;0;123;180;350
+FGEN;d.Fgen;Fibrinogen (derived);mg/dl;AL;Jahr;0;123;180;350
+FIB4;FIB4;Fibrinogen Clauss (MC4) Rohwert;g/l;AL;Jahr;1;123;1,8;3,5
+FIBMC4;FIBMC4;Fibrinogen nach Clauss;mg/dl;AL;Jahr;1;123;180;350
+TZ;TZ;Thrombinzeit;s;AL;Jahr;0;123;16;24
+AT3;AT3;Antithrombin;%;AL;Monat;0;1;40;80
+AT3;AT3;Antithrombin;%;AL;Monat;1;3;50;120
+AT3;AT3;Antithrombin;%;AL;Monat;4;6;80;125
+AT3;AT3;Antithrombin;%;AL;Jahr;1;123;80;115
+AT3;AT3;Antithrombin;%;AL;Monat;7;12;80;130
+DIMEBC;D-Dim BCS;D-Dimer (BCS);mg/l;AL;Jahr;0;123;0,05;0,19
+DDIM;D-Dimer;D-Dimere;mg/L FEU;AL;Jahr;18;123;;0,5
+DDIM;D-Dimer;D-Dimere;mg/L FEU;AL;Jahr;0;18;;0,73
+F2;F2 Akt.;Faktor II Akt.;%;AL;Monat;0;2;30;70
+F2;F2 Akt.;Faktor II Akt.;%;AL;Monat;3;12;50;85
+F2;F2 Akt.;Faktor II Akt.;%;AL;Jahr;1;123;70;120
+F5;F5 Akt.;Faktor V Akt.;%;AL;Jahr;0;123;70;140
+F7;F7 Akt.;Faktor VII Akt.;%;AL;Monat;0;2;30;70
+F7;F7 Akt.;Faktor VII Akt.;%;AL;Monat;3;12;50;85
+F7;F7 Akt.;Faktor VII Akt.;%;AL;Jahr;1;123;70;120
+F8;F8 Akt.;Faktor VIII Akt.;%;AL;Jahr;0;123;70;150
+F8AG;Willebr.F.;vWF-Antigen;%;AL;Jahr;0;123;50;120
+F9;F9 Akt.;Faktor IX Akt.;%;AL;Monat;0;2;30;70
+F9;F9 Akt.;Faktor IX Akt.;%;AL;Monat;3;12;50;85
+F9;F9 Akt.;Faktor IX Akt.;%;AL;Jahr;1;123;70;130
+F10;F10 Akt.;Faktor X Akt.;%;AL;Monat;0;2;20;55
+F10;F10 Akt.;Faktor X Akt.;%;AL;Monat;3;12;50;85
+F10;F10 Akt.;Faktor X Akt.;%;AL;Jahr;1;10;60;100
+F10;F10 Akt.;Faktor X Akt.;%;AL;Jahr;11;123;70;120
+F11;F11 Akt.;Faktor XI Akt.;%;AL;Monat;0;2;30;70
+F11;F11 Akt.;Faktor XI Akt.;%;AL;Monat;3;12;50;85
+F11;F11 Akt.;Faktor XI Akt.;%;AL;Jahr;1;15;60;90
+F11;F11 Akt.;Faktor XI Akt.;%;AL;Jahr;16;123;70;120
+F12;F12 Akt.;Faktor XII Akt.;%;AL;Monat;0;2;30;70
+F12;F12 Akt.;Faktor XII Akt.;%;AL;Monat;3;12;50;85
+F12;F12 Akt.;Faktor XII Akt.;%;AL;Jahr;1;123;70;150
+F13;F13 Akt.;Faktor XIII Akt.;%;AL;Jahr;0;123;70;140
+A2AP;a2Antipl;a2-Antiplasmin;%;AL;Jahr;0;123;70;120
+FIMO;sol.Fib.;soluble Fibrin;SF Units;AL;Jahr;0;123;27;75
+FSP;FSP;Fibrinogen-SP;ug/ml;AL;Jahr;0;123;0;10
+F1+2;F1+2;Prothr.fragm.1+2;pmol/l;AL;Jahr;0;123;69;229
+TAT;TAT;TAT-Komplex;ng/ml;AL;Jahr;0;123;;4,1
+PLAP;Plasmino;Plasminogen;%;AL;Jahr;0;123;70;120
+PROC;Prot.C;Protein C;%;AL;Monat;0;3;25;82
+PROC;Prot.C;Protein C;%;AL;Monat;4;12;38;95
+PROC;Prot.C;Protein C;%;AL;Jahr;1;5;45;102
+PROC;Prot.C;Protein C;%;AL;Jahr;6;9;64;125
+PROC;Prot.C;Protein C;%;AL;Jahr;10;18;62;128
+PROC;Prot.C;Protein C;%;AL;Jahr;19;123;70;140
+PROSf;f.Prot.S;freies Protein S;%;M;Jahr;0;123;67;139
+PROSf;f.Prot.S;freies Protein S;%;W;Jahr;0;123;60;114
+PROS;Prot.S;Protein S;%;AL;Monat;0;1;40;60
+PROS;Prot.S;Protein S;%;AL;Monat;1;120;60;80
+PROS;Prot.S;Protein S;%;M;Jahr;10;123;70;140
+PROS;Prot.S;Protein S;%;W;Jahr;10;123;55;140
+APC;APC Res;act.Prot.C Resist;ratio;AL;Jahr;0;123;2,2;
+LAK;LAK;Lupus Antikoagulans;ratio;AL;Jahr;0;123;1,09;1,37
+PTTL;PTTL;PTT-Lupus sens.;s;AL;Jahr;0;5;30;50
+PTTL;PTTL;PTT-Lupus sens.;s;AL;Jahr;6;123;20;40
+aFXa;antiFXa;antiFXa/LMW-Heparin(2-4h);U/ml;AL;Jahr;0;123;0,4;0,8
+aFXaA;Apixa;antiFXa / Apixaban;ng/ml;AL;Jahr;0;123;25;130
+HEPA;Heparin;UF-Heparin;U/ml;AL;Jahr;18;123;0,3;0,8
+HEPA;Heparin;UF-Heparin;U/ml;AL;Jahr;0;17;0,35;0,7
+HIRU;Hirudin;Hirudin;ug/ml;AL;Jahr;0;123;0,15;1,5
+DABI;Dabig;Dabigatran;ug/ml;AL;Jahr;0;123;0,06;0,2
+C1-I;C1-Inh.;C1-Inhibitor;%;AL;Jahr;0;123;70;130
+AADP0;MPADP;Thromb.Aggr./ADP;AUC;AL;Jahr;0;123;500;1200
+AADP1;MPADP;Thromb.Aggr. ADP/Clopid.;AUC;AL;Jahr;0;123;;450
+AASPI0;MPASPI;Thromb.Aggr.+Arachid.;AUC;AL;Jahr;0;123;745;1360
+AASP1;Thr.Agg.ASP nach;Thromb.Aggr. Arachid./ASS;AUC;AL;Jahr;0;123;;300
+ATRAP;MPTRAP;Thromb.Aggr./TRAP;AUC;AL;Jahr;0;123;940;1560
+ATRAP1;MPTRAP;Thromb.Aggr./TRAP nach Gabe;AUC;AL;Jahr;0;123;;300
+MPADP;MP-ADP;Thromb.Aggr.+ADP;AU*min;AL;Jahr;18;123;500;1200
+MPADP;MP-ADP;Thromb.Aggr.+ADP;AU*min;AL;Jahr;0;1;200;1000
+MPADP;MP-ADP;Thromb.Aggr.+ADP;AU*min;AL;Jahr;2;4;115;1250
+MPADP;MP-ADP;Thromb.Aggr.+ADP;AU*min;AL;Jahr;5;9;160;1100
+MPADP;MP-ADP;Thromb.Aggr.+ADP;AU*min;AL;Jahr;10;17;170;1300
+MPADPHS;MP-ADPHS;Thromb.Aggr.+ADP+PGE;AU*min;AL;Jahr;0;123;430;1000
+MPASPI;MP-ASPI;Thromb.Aggr.+Arachid.s.;AU*min;AL;Jahr;18;123;700;1300
+MPASPI;MP-ASPI;Thromb.Aggr.+Arachid.s.;AU*min;AL;Jahr;0;1;240;1000
+MPASPI;MP-ASPI;Thromb.Aggr.+Arachid.s.;AU*min;AL;Jahr;2;4;250;1350
+MPASPI;MP-ASPI;Thromb.Aggr.+Arachid.s.;AU*min;AL;Jahr;5;9;400;1300
+MPASPI;MP-ASPI;Thromb.Aggr.+Arachid.s.;AU*min;AL;Jahr;10;17;350;1280
+MPCOL;MP-COL;Thromb.Aggr.+Collagen;AU*min;AL;Jahr;18;123;720;1250
+MPCOL;MP-COL;Thromb.Aggr.+Collagen;AU*min;AL;Jahr;0;1;160;1020
+MPCOL;MP-COL;Thromb.Aggr.+Collagen;AU*min;AL;Jahr;2;4;145;1570
+MPCOL;MP-COL;Thromb.Aggr.+Collagen;AU*min;AL;Jahr;5;9;145;1450
+MPCOL;MP-COL;Thromb.Aggr.+Collagen;AU*min;AL;Jahr;10;17;150;1300
+MPTRAP;MP-TRAP;Thromb.Aggr.+TRAP;AU*min;AL;Jahr;18;123;840;1300
+MPTRAP;MP-TRAP;Thromb.Aggr.+TRAP;AU*min;AL;Jahr;0;1;150;950
+MPTRAP;MP-TRAP;Thromb.Aggr.+TRAP;AU*min;AL;Jahr;2;4;220;1340
+MPTRAP;MP-TRAP;Thromb.Aggr.+TRAP;AU*min;AL;Jahr;5;9;485;1320
+MPTRAP;MP-TRAP;Thromb.Aggr.+TRAP;AU*min;AL;Jahr;10;17;480;1360
+MPADPH;MP-ADP-H;Thromb.Aggr.+ADP;AU*min;AL;Jahr;0;110;548;1167
+MPASPIH;MP-ASPI-H;Thromb.Aggr.+Arachid.s.;AU*min;AL;Jahr;0;110;790;1410
+MPTRAPH;MP-TRAP-H;Thromb.Aggr.+TRAP;AU*min;AL;Jahr;0;110;923;1509
+PFAA;PFA-ADP;PFA:Koll.+ADP;sec;AL;Jahr;0;123;68;121
+PFAE;PFA-Epi;PFA: Koll.+Epi;sec;AL;Jahr;0;123;84;160
+REPT;Reptilas;Reptilasezeit;s;AL;Jahr;0;123;18;22
+TRCO;Thr.koag;Thrombinkoagulase;s;AL;Jahr;0;123;18;22
+BLZ;BLZ;Blutungszeit;min;AL;Jahr;0;123;2;8
+EULY;Euglob.;Euglobulinlysezeit;min;AL;Jahr;0;123;;60
+ßTG;ß-TG;ß-Thromboglob.;IU/ml;AL;Jahr;0;123;10;40
+PF4;PF4;Plättchenfaktor 4;IU/ml;AL;Jahr;0;123;0;5
+RIST;Risto.F;Ristocetinkofaktor;%;AL;Jahr;0;123;50;185
+vWF;vWillebr.F;v.Willebrand-F. Aktivität;%;AL;Jahr;0;123;50;160
+vWFAg;vWFAg;v.Willebrand-F. Antigen;%;AL;Jahr;0;120;50;160
+INRC;INRCapillär;INR (kapillär);INR;AL;Jahr;0;123;2;3
+GLUB;Gluk.k;Glukose kap.;mg/dl;AL;Tag;0;1;40;60
+GLUB;Gluk.k;Glukose kap.;mg/dl;AL;Tag;2;365;50;80
+GLUB;Gluk.k;Glukose kap.;mg/dl;AL;Jahr;1;14;60;100
+GLUB;Gluk.k;Glukose kap.;mg/dl;AL;Jahr;15;123;74;106
+GLUH;Gluk.häm.;Glukose kap/Hämolysat;mg/dl;AL;Tag;0;1;30;80
+GLUH;Gluk.häm.;Glukose kap/Hämolysat;mg/dl;AL;Tag;2;365;50;120
+GLUH;Gluk.häm.;Glukose kap/Hämolysat;mg/dl;AL;Jahr;1;14;70;105
+GLUH;Gluk.häm.;Glukose kap/Hämolysat;mg/dl;AL;Jahr;15;123;70;100
+GLUV;Gluk.v.;Glukose Plasm.ven.;mg/dl;AL;Jahr;0;13;50;100
+GLUV;Gluk.v.;Glukose Plasm.ven.;mg/dl;AL;Jahr;14;123;60;100
+GLSC;Gluc.Scr;Glukose Screening;mg/dl;AL;Jahr;0;14;60;100
+GLSC;Gluc.Scr;Glukose Screening;mg/dl;AL;Jahr;15;123;74;106
+HBA1;HbA1c;HbA1c (NGSP);%;AL;Jahr;0;123;4,8;5,99
+HBA1C;HbA1c;HbA1c (IFCC);mmol/mol;AL;Jahr;0;123;20;42
+OGT1;OGTTnue;oraler GTT nüchtern;mg/dl;AL;Jahr;0;123;70;90
+OGT2;OGTT 1h;Oraler GTT 1h;mg/dl;AL;Jahr;0;123;120;160
+OGT3;OGTT 2h;oraler GTT 2h;mg/dl;AL;Jahr;0;123;70;140
+GLUK;Gluk U;Glukose/Urin;g/l;AL;Jahr;0;123;;0,2
+GLUU;Gluk U;Glukose Urin /Zeit;g/Zeit;AL;Jahr;0;123;;0,5
+LACS;Lactat;Lactat;mmol/l;AL;Jahr;0;14;0,5;2,2
+LACS;Lactat;Lactat;mmol/l;AL;Jahr;14;123;0,5;2,2
+ALK;Ethanol;Ethanol;g/l;AL;Jahr;0;120;;
+NA;Na;Natrium;mmol/l;AL;Jahr;0;1;130;146
+NA;Na;Natrium;mmol/l;AL;Jahr;1;14;130;145
+NA;Na;Natrium;mmol/l;AL;Jahr;14;123;135;145
+K;K;Kalium;mmol/l;AL;Jahr;0;1;3,7;5,9
+K;K;Kalium;mmol/l;AL;Jahr;2;14;3,7;5
+K;K;Kalium;mmol/l;AL;Jahr;15;123;3,8;5
+CL;Cl;Chlorid;mmol/l;AL;Jahr;0;1;95;110
+CL;Cl;Chlorid;mmol/l;AL;Jahr;1;123;95;105
+CO2;CO2;Bicarbonat / CO2;mmol/l;AL;Jahr;0;123;23;29
+LDH7;LDH;LDH;U/l;AL;Jahr;0;1;;450
+LDH7;LDH;LDH;U/l;AL;Jahr;1;3;;340
+LDH7;LDH;LDH;U/l;AL;Jahr;4;12;;320
+LDH7;LDH;LDH;U/l;AL;Jahr;13;17;;270
+LDH7;LDH;LDH;U/l;AL;Jahr;18;123;;250
+GOT7;GOT;GOT / AST;U/l;AL;Tag;0;30;;100
+GOT7;GOT;GOT / AST;U/l;AL;Monat;1;12;;80
+GOT7;GOT;GOT / AST;U/l;AL;Jahr;1;14;;40
+GOT7;GOT;GOT / AST;U/l;M;Jahr;15;123;10;40
+GOT7;GOT;GOT / AST;U/l;W;Jahr;15;123;10;35
+FIB4X;FIB4;FIB4-Index;;AL;Jahr;0;123;;1
+APRIX;APRI;APRI-Index;;AL;Jahr;0;123;;0,5
+CK7;CK;CK;U/l;AL;Woche;0;1;;650
+CK7;CK;CK;U/l;AL;Woche;2;25;;300
+CK7;CK;CK;U/l;AL;Woche;26;52;;200
+CK7;CK;CK;U/l;AL;Jahr;1;3;;220
+CK7;CK;CK;U/l;AL;Jahr;4;6;;150
+CK7;CK;CK;U/l;M;Jahr;7;14;;250
+CK7;CK;CK;U/l;M;Jahr;15;123;;190
+CK7;CK;CK;U/l;W;Jahr;7;14;;150
+CK7;CK;CK;U/l;W;Jahr;15;123;;170
+MB7;CKMB;CKMB Aktivität;U/l;AL;Jahr;0;123;;24
+CKMP;CKMB/CK;CK-MB / CK ges.;%;AL;Jahr;0;123;6;25
+GPT7;GPT;GPT / ALT;U/l;AL;Monat;0;1;;50
+GPT7;GPT;GPT / ALT;U/l;AL;Monat;1;12;;60
+GPT7;GPT;GPT / ALT;U/l;AL;Jahr;1;14;;30
+GPT7;GPT;GPT / ALT;U/l;M;Jahr;15;123;10;50
+GPT7;GPT;GPT / ALT;U/l;W;Jahr;15;123;10;35
+AP7;AP;alk. Phosphatase;U/l;AL;Tag;0;30;;250
+AP7;AP;alk. Phosphatase;U/l;AL;Monat;1;12;;450
+AP7;AP;alk. Phosphatase;U/l;AL;Jahr;1;6;70;350
+AP7;AP;alk. Phosphatase;U/l;AL;Jahr;7;12;50;300
+AP7;AP;alk. Phosphatase;U/l;M;Jahr;18;123;40;130
+AP7;AP;alk. Phosphatase;U/l;M;Jahr;13;17;48;380
+AP7;AP;alk. Phosphatase;U/l;W;Jahr;13;17;47;330
+AP7;AP;alk. Phosphatase;U/l;W;Jahr;18;123;55;105
+CA;Ca;Kalzium;mmol/l;AL;Jahr;0;1;1,9;2,7
+CA;Ca;Kalzium;mmol/l;AL;Jahr;1;14;2,3;2,7
+CA;Ca;Kalzium;mmol/l;AL;Jahr;14;123;2,1;2,5
+CAS;Ca;Kalzium;mmol/l;AL;Jahr;0;14;2;2,7
+GGT7;yGT;gamma-GT;U/l;AL;Tag;0;30;;130
+GGT7;yGT;gamma-GT;U/l;AL;Tag;30;180;;80
+GGT7;yGT;gamma-GT;U/l;AL;Tag;180;365;;40
+GGT7;yGT;gamma-GT;U/l;AL;Jahr;1;14;;20
+GGT7;yGT;gamma-GT;U/l;M;Jahr;14;123;8;60
+GGT7;yGT;gamma-GT;U/l;W;Jahr;14;123;5;40
+CHE7;CHE;CHE;kU/l;AL;Jahr;0;123;5,5;13
+HSS;Hs;Harnsäure;mg/dl;AL;Tag;0;7;1,9;7,9
+HSS;Hs;Harnsäure;mg/dl;AL;Woche;1;52;1,7;5,7
+HSS;Hs;Harnsäure;mg/dl;AL;Jahr;1;14;2,5;6,4
+HSS;Hs;Harnsäure;mg/dl;M;Jahr;14;65;3,6;7
+HSS;Hs;Harnsäure;mg/dl;M;Jahr;65;123;;8,4
+HSS;Hs;Harnsäure;mg/dl;W;Jahr;14;123;2,3;6,1
+HSTS;Hst;Harnstoff;mg/dl;AL;Jahr;0;3;11;36
+HSTS;Hst;Harnstoff;mg/dl;AL;Jahr;3;13;15;36
+HSTS;Hst;Harnstoff;mg/dl;AL;Jahr;13;65;18;50
+HSTS;Hst;Harnstoff;mg/dl;AL;Jahr;66;123;18;60
+QuHsKr;QuHsKr;Quotient Harnstoff/Krea;;AL;Jahr;0;0;20;35
+KRE2;Krea;Kreatinin enzymat.;mg/dl;AL;Monat;0;1;0,5;1,2
+KRE2;Krea;Kreatinin enzymat.;mg/dl;AL;Monat;2;12;0,2;0,7
+KRE2;Krea;Kreatinin enzymat.;mg/dl;AL;Jahr;1;15;0,3;1
+KRE2;Krea;Kreatinin enzymat.;mg/dl;M;Jahr;16;123;0,6;1,2
+KRE2;Krea;Kreatinin enzymat.;mg/dl;W;Jahr;16;123;0,5;1
+KRES;Krea;Kreatinin;mg/dl;AL;Monat;1;12;0,2;0,4
+KRES;Krea;Kreatinin;mg/dl;AL;Jahr;2;7;0,2;0,5
+KRES;Krea;Kreatinin;mg/dl;AL;Jahr;7;15;0,3;0,7
+KRES;Krea;Kreatinin;mg/dl;M;Jahr;15;123;0,6;1,3
+KRES;Krea;Kreatinin;mg/dl;W;Jahr;15;123;0,6;1,2
+KRES;Krea;Kreatinin;mg/dl;AL;Tag;0;1;0,42;0,92
+KRES;Krea;Kreatinin;mg/dl;AL;Tag;1;2;0,36;0,78
+KRES;Krea;Kreatinin;mg/dl;AL;Tag;2;3;0,33;0,7
+KRES;Krea;Kreatinin;mg/dl;AL;Tag;3;4;0,31;0,66
+KRES;Krea;Kreatinin;mg/dl;AL;Tag;4;5;0,28;0,62
+KRES;Krea;Kreatinin;mg/dl;AL;Tag;5;6;0,27;0,6
+KRES;Krea;Kreatinin;mg/dl;AL;Tag;6;7;0,26;0,58
+KRES;Krea;Kreatinin;mg/dl;AL;Woche;1;4;0,2;0,5
+CYSC;CysC;Cystatin C;mg/l;AL;Monat;0;3;0,81;2,32
+CYSC;CysC;Cystatin C;mg/l;AL;Monat;4;11;0,65;1,49
+CYSC;CysC;Cystatin C;mg/l;AL;Jahr;1;19;0,56;0,9
+CYSC;CysC;Cystatin C;mg/l;M;Jahr;20;29;0,6;1,3
+CYSC;CysC;Cystatin C;mg/l;M;Jahr;30;39;0,64;1,12
+CYSC;CysC;Cystatin C;mg/l;M;Jahr;40;49;0,68;1,22
+CYSC;CysC;Cystatin C;mg/l;M;Jahr;50;59;0,72;1,32
+CYSC;CysC;Cystatin C;mg/l;M;Jahr;60;69;0,77;1,42
+CYSC;CysC;Cystatin C;mg/l;M;Jahr;70;99;0,82;1,53
+CYSC;CysC;Cystatin C;mg/l;W;Jahr;20;29;0,57;0,9
+CYSC;CysC;Cystatin C;mg/l;W;Jahr;30;39;0,59;0,98
+CYSC;CysC;Cystatin C;mg/l;W;Jahr;40;49;0,62;1,07
+CYSC;CysC;Cystatin C;mg/l;W;Jahr;50;59;0,64;1,17
+CYSC;CysC;Cystatin C;mg/l;W;Jahr;60;69;0,66;1,26
+CYSC;CysC;Cystatin C;mg/l;W;Jahr;70;123;0,68;1,36
+eGFR2;eGFR2;eGFR (BIS2-Formel);ml/min;AL;Jahr;70;123;60;140
+GFRcysc;GFRcc;eGFR (CystatinC);ml/min;AL;Jahr;18;60;80;140
+GFRcysc;GFRcc;eGFR (CystatinC);ml/min;AL;Jahr;61;70;75;140
+GFRcysc;GFRcc;eGFR (CystatinC);ml/min;AL;Jahr;71;80;64;140
+GFRcysc;GFRcc;eGFR (CystatinC);ml/min;AL;Jahr;81;123;50;140
+GFR;GFR-MDRD;GFR (MDRD 4 V);ml/min;AL;Jahr;18;50;80;140
+GFR;GFR-MDRD;GFR (MDRD 4 V);ml/min;AL;Jahr;51;60;70;140
+GFR;GFR-MDRD;GFR (MDRD 4 V);ml/min;AL;Jahr;61;123;60;140
+eGFR;eGFR;eGFR (MDRD-Formel);ml/min;AL;Jahr;18;123;60;140
+eGFR1;eGFR1;eGFR (BIS1-Formel);ml/min;AL;Jahr;70;123;60;140
+BILS;G.Bili;Ges. Bilirubin;mg/dl;AL;Tag;0;1;;8
+BILS;G.Bili;Ges. Bilirubin;mg/dl;AL;Tag;2;3;1,3;14
+BILS;G.Bili;Ges. Bilirubin;mg/dl;AL;Tag;4;6;;17
+BILS;G.Bili;Ges. Bilirubin;mg/dl;AL;Woche;1;4;;2
+BILS;G.Bili;Ges. Bilirubin;mg/dl;AL;Monat;1;12;;1,2
+BILS;G.Bili;Ges. Bilirubin;mg/dl;AL;Jahr;1;123;;1,2
+TPS;G.Prot;Ges. Protein;g/dl;AL;Monat;0;6;4,1;6,7
+TPS;G.Prot;Ges. Protein;g/dl;AL;Monat;6;24;5,5;8
+TPS;G.Prot;Ges. Protein;g/dl;AL;Jahr;2;123;6,5;8,5
+ALBS;Alb.S.;Albumin;g/l;AL;Jahr;0;1;30;52
+ALBS;Alb.S.;Albumin;g/l;AL;Jahr;1;123;35;52
+IMA;IMA;Ischemia Modif. Albumin;U/ml;AL;Jahr;0;123;45;120
+CHOS;Chol;Cholesterin;mg/dl;AL;Jahr;0;1;60;190
+CHOS;Chol;Cholesterin;mg/dl;AL;Jahr;1;14;110;220
+CHOS;Chol;Cholesterin;mg/dl;AL;Jahr;15;123;130;200
+TRIS;Trig;Triglyceride;mg/dl;AL;Jahr;18;123;;150
+TRIS;Trig;Triglyceride;mg/dl;AL;Jahr;0;18;;140
+AMY7;Amylase;a-Amylase;U/l;AL;Jahr;0;123;28;100
+CRPS;CRP;C-reakt. Protein;mg/l;AL;Tag;0;1;;0,6
+CRPS;CRP;C-reakt. Protein;mg/l;AL;Tag;2;7;;1,6
+CRPS;CRP;C-reakt. Protein;mg/l;AL;Woche;1;52;;5
+CRPS;CRP;C-reakt. Protein;mg/l;AL;Jahr;1;123;;5
+CRPH;CRPsens;C-reakt. Protein sens.;mg/l;AL;Jahr;0;123;0,1;3,1
+LIP7;Lipase;Lipase;U/l;AL;Jahr;0;123;13;60
+HDLS;HDL;HDL-Chol.;mg/dl;AL;Jahr;0;4;30;80
+HDLS;HDL;HDL-Chol.;mg/dl;M;Jahr;14;123;40;80
+HDLS;HDL;HDL-Chol.;mg/dl;W;Jahr;14;123;40;100
+HDLS;HDL;HDL-Chol.;mg/dl;AL;Jahr;5;13;35;85
+HDLF;HDL;HDL-Chol.    (F.);mg/dl;AL;Jahr;0;123;;85
+QLHC;QLDLHDL;LDL/HDL-Chol.;ratio;AL;Jahr;0;123;;4
+ANPS;an.Phos.;anorg.Phosphat;mg/dl;AL;Monat;0;1;5;9,6
+ANPS;an.Phos.;anorg.Phosphat;mg/dl;AL;Monat;2;12;5;10,8
+ANPS;an.Phos.;anorg.Phosphat;mg/dl;AL;Jahr;1;14;3,4;6,2
+ANPS;an.Phos.;anorg.Phosphat;mg/dl;AL;Jahr;14;123;2,7;4,5
+FES;Eisen;Eisen;ug/dl;AL;Monat;0;1;60;200
+FES;Eisen;Eisen;ug/dl;AL;Monat;2;12;30;150
+FES;Eisen;Eisen;ug/dl;AL;Jahr;1;12;22;135
+FES;Eisen;Eisen;ug/dl;M;Jahr;13;123;59;160
+FES;Eisen;Eisen;ug/dl;W;Jahr;13;123;37;150
+TRFS;Transf.;Transferrin;g/l;AL;Jahr;0;1;1,3;3
+TRFS;Transf.;Transferrin;g/l;AL;Jahr;1;123;2;4
+TFSÄ;Transf.Sä.;Transferrin-Sättigung;%;AL;Jahr;0;1;29;46
+TFSÄ;Transf.Sä.;Transferrin-Sättigung;%;AL;Jahr;1;5;7;44
+TFSÄ;Transf.Sä.;Transferrin-Sättigung;%;AL;Jahr;6;9;17;42
+TFSÄ;Transf.Sä.;Transferrin-Sättigung;%;AL;Jahr;15;19;6;33
+TFSÄ;Transf.Sä.;Transferrin-Sättigung;%;AL;Jahr;20;123;16;45
+TFSÄ;Transf.Sä.;Transferrin-Sättigung;%;M;Jahr;10;14;2;40
+TFSÄ;Transf.Sä.;Transferrin-Sättigung;%;W;Jahr;10;14;11;36
+STFR;sTFR;sol.Transferrinrez.;mg/l;M;Jahr;0;123;2,2;5
+STFR;sTFR;sol.Transferrinrez.;mg/l;W;Jahr;0;123;1,9;4,4
+CUS;Cu;Kupfer;ug/dl;AL;Monat;0;4;9;46
+CUS;Cu;Kupfer;ug/dl;AL;Monat;4;12;30;130
+CUS;Cu;Kupfer;ug/dl;AL;Jahr;1;5;80;150
+CUS;Cu;Kupfer;ug/dl;AL;Jahr;6;14;80;136
+CUS;Cu;Kupfer;ug/dl;AL;Jahr;14;123;70;135
+MGSH;Mg;Magnesium;mmol/l;AL;Jahr;0;14;0,8;1
+MGSH;Mg;Magnesium;mmol/l;AL;Jahr;15;123;0,75;1,1
+ZNS;Zn;Zink;ug/dl;AL;Jahr;0;2;75;100
+ZNS;Zn;Zink;ug/dl;AL;Jahr;2;14;64;110
+ZNS;Zn;Zink;ug/dl;AL;Jahr;15;123;65;110
+OSMS;Osmo S;Osmolalitaet;mosm/kg;AL;Jahr;0;1;270;305
+OSMS;Osmo S;Osmolalitaet;mosm/kg;AL;Jahr;1;14;275;295
+OSMS;Osmo S;Osmolalitaet;mosm/kg;AL;Jahr;15;123;280;300
+OSMB;Osmo ber;Osmolalität berechnet;mosm/kg;AL;Jahr;0;123;260;295
+OSMD;Os.Lueck;Osmotische Lücke;mosm/kg;AL;Jahr;0;123;10;20
+HBDH;HBDH;HBDH;U/l;AL;Jahr;0;1;100;300
+HBDH;HBDH;HBDH;U/l;AL;Jahr;2;14;70;165
+HBDH;HBDH;HBDH;U/l;AL;Jahr;15;123;55;140
+HLR;HälysR;Hämolyserate;%;AL;Jahr;0;123;;0,8
+FHB;fr.Hb;freies Haemoglobin;mg/dl;AL;Jahr;0;123;0;5
+GLDH7;GLDH;GLDH;U/l;AL;Monat;0;1;;10
+GLDH7;GLDH;GLDH;U/l;AL;Monat;2;12;;6
+GLDH7;GLDH;GLDH;U/l;AL;Jahr;1;12;;4
+GLDH7;GLDH;GLDH;U/l;AL;Jahr;13;17;;4,8
+GLDH7;GLDH;GLDH;U/l;M;Jahr;18;123;;6,5
+GLDH7;GLDH;GLDH;U/l;W;Jahr;18;123;;5
+BILD;Bili dir;Bilirubin konj.(direkt);mg/dl;AL;Jahr;0;123;0;0,3
+BILI;Bili ind;Bilirubin n.konj.(indirekt);mg/dl;AL;Jahr;0;123;;1
+NH3;NH3;Ammoniak;µg/dl;AL;Monat;0;1;45;110
+NH3;NH3;Ammoniak;µg/dl;AL;Monat;2;12;26;120
+NH3;NH3;Ammoniak;µg/dl;AL;Jahr;1;14;26;120
+NH3;NH3;Ammoniak;µg/dl;AL;Jahr;1;120;27;90
+LDL;LDL-F;LDL-Chol.(Friedew);mg/dl;AL;Jahr;0;14;50;140
+LDL;LDL-F;LDL-Chol.(Friedew);mg/dl;AL;Jahr;15;123;70;155
+LDLS;LDL;LDL-Chol.;mg/dl;AL;Jahr;15;123;;150
+LDLS;LDL;LDL-Chol.;mg/dl;AL;Jahr;0;14;;130
+LPA;LP(a);Lipoprotein(a);nmol/l;AL;Jahr;0;123;;75
+SPS;SP;Saure Phosphatase;U/l;AL;Jahr;1;13;8;30
+SPS;SP;Saure Phosphatase;U/l;AL;Jahr;14;123;3;13
+ALSR;Albu%;Albumin rel.;%;AL;Jahr;16;123;60;72
+A1SR;a1-Glob.;a1-Globulin rel.;%;AL;Jahr;16;123;1;3,2
+A2SR;a2-Glob.;a2-Globulin rel;%;AL;Jahr;16;123;7,4;12,6
+BSR;b-Glob.;b-Globulin rel;%;AL;Jahr;16;123;7,5;13
+GSR;y-Glob.;y-Globulin rel.;%;AL;Jahr;16;123;8;16
+ALSA;Albu.abs.;Albumin abs.;g/l;AL;Jahr;15;123;35;50
+A1SA;a1-Glob.;a1-Globulin abs.;g/l;AL;Jahr;15;123;1,5;4
+A2SA;a2-Glob.;a2-Globulin abs;g/l;AL;Jahr;15;123;5,5;9,5
+BSA;b-Glob.;b-Globulin absol.;g/l;AL;Jahr;15;123;6;11,5
+GSA;y-Glob.;y-Globulin abs.;g/l;AL;Jahr;1;6;4,5;12
+GSA;y-Glob.;y-Globulin abs.;g/l;AL;Jahr;7;14;6;14
+GSA;y-Glob.;y-Globulin abs.;g/l;AL;Jahr;15;123;6;15
+B2SR;b2-Glob.;b2-Globulin;%;AL;Jahr;0;123;7;13
+USPG;spez.Gew.;spezifisch. Gewicht/Stix;;AL;Jahr;0;120;1016;1022
+UPH;pH;pH/Stix;;AL;Jahr;0;123;5;7
+ULEU;Leu/Stix;Leukozyten/Stix;Leu/µl;AL;Jahr;0;123;;10
+UHB;Hb/Stix;Hb aus Ery/Stix;aus Ery/µl;AL;Jahr;0;123;0;3
+UEIW;ProtStix;Protein/Stix;g/l;AL;Jahr;0;123;;0,1
+UGLU;GlucStix;Glukose/Stix;g/l;AL;Jahr;0;123;;0,15
+UKET;Keto/Sti;Keton/Stix;mg/dl;AL;Jahr;0;123;;5
+UUBG;Ubg;Urobilinogen/Stix;mg/l;AL;Jahr;0;123;;10
+UBIL;BiliStix;Bilirubin/Stix;mg/dl;AL;Jahr;0;123;;0,2
+ERYS;Ery/Sed.;Erythrozyten/Sed.;;AL;Jahr;0;123;;1
+LEUS;LeukSed;Leukozyten/Sed.;;AL;Jahr;0;123;0;4
+DROG;Drog U;Drogenscreening/Urin;;AL;Jahr;0;123;1;2
+ERYK;Ery(K)U;Ery (Kammer) U;Ery/µl;AL;Jahr;0;123;0;3
+LEUK;Leu(K)U;Leuko (Kammer) U;Leu/µl;AL;Jahr;0;123;0;10
+NAUK;Na U;Natrium/Urin;mmol/l;AL;Jahr;0;123;60;200
+NAU;Na U;Natrium Urin /Zeit;mmol/Zeit;AL;Jahr;0;123;70;270
+FENA;FE-Na;Frakt.Natrium-Exkretion;%;AL;Jahr;0;123;0,2;0,8
+KUK;K U;Kalium/Urin;mmol/l;AL;Jahr;0;123;20;80
+KU;K U;Kalium Urin /Zeit;mmol/Zeit;AL;Jahr;0;10;8;54
+KU;K U;Kalium Urin /Zeit;mmol/Zeit;AL;Jahr;10;14;18;58
+KU;K U;Kalium Urin /Zeit;mmol/Zeit;AL;Jahr;14;123;25;125
+FEK;FE-K;Frakt.Kalium-Exkretion;%;AL;Jahr;0;123;5;17
+CLUK;Cl U;Chlorid/Urin;mmol/l;AL;Jahr;0;123;20;350
+CLUT;Cl U;Chlorid Urin /Zeit;mmol/Zeit;AL;Jahr;0;123;100;250
+CAUK;Ca U;Kalzium/Urin;mmol/l;AL;Jahr;0;123;0;7
+CAUA;Ca U;Kalzium Urin /Zeit;mmol/Zeit;AL;Jahr;0;123;;7,5
+MGU;Mg U;Magnesium Urin /Zeit;mmol/Zeit;AL;Jahr;0;123;2,5;8,5
+OSMU;Osmo U;Osmolalitaet/Urin;mosm/kg;AL;Jahr;0;1;50;1000
+OSMU;Osmo U;Osmolalitaet/Urin;mosm/kg;AL;Jahr;1;6;50;1050
+OSMU;Osmo U;Osmolalitaet/Urin;mosm/kg;AL;Jahr;7;12;50;1400
+OSMU;Osmo U;Osmolalitaet/Urin;mosm/kg;AL;Jahr;13;123;50;1250
+TPUK;Prot.U;Ges.Protein/Urin;g/l;AL;Jahr;0;123;0,01;0,14
+TPU;Prot.U;Ges.Protein Urin /Zeit;g/Zeit;AL;Jahr;0;123;0,05;0,08
+QuTPK;QuEiKr;Quotient Eiweiß/Krea;;AL;Jahr;0;123;;0,2
+AKIR;AKIR;ak.NierenschadenRisiko;ratio;AL;Jahr;0;123;;2
+AMYU;a-Amy U;a-Amylase/Urin;U/l;AL;Jahr;0;123;0;460
+ANPU;an.Phos.U;anorg.Phosphat/Urin;mg/dl;AL;Jahr;0;123;40;140
+ANPUZ;a.Phos.U/Z;anorg.Phosph.U/Zeit;mg/Zeit;AL;Jahr;0;123;40;140
+CUU;Cu U;Kupfer U;µg/Zeit;AL;Jahr;0;99;10;60
+ALBU;Alb. U;Albumin/Urin;mg/l;AL;Jahr;0;123;6;25
+FEUA;Eisen U;Eisen Urin / Sammelzeit;µg/Zeit;AL;Jahr;0;123;;100
+HSUK;Hs U;Harnsaeure/Urin;mg/dl;AL;Jahr;0;123;37;92
+HSU;Hs U;Harnsaeure Urin /Zeit;g/Zeit;AL;Jahr;0;123;0,1;0,8
+HTUK;Hst U;Harnstoff/Urin;g/l;AL;Jahr;0;123;12;20
+HSTU;Hst U;Harnstoff Urin /Zeit;g/Zeit;AL;Jahr;0;123;20;35
+FEHST;FE-Hst;Frakt. Harnstoff-Exkr.;%;AL;Jahr;0;123;50;65
+CKRE;Krea.Cl.;Kreatininclearance;ml/min;AL;Jahr;0;1;40;108
+CKRE;Krea.Cl.;Kreatininclearance;ml/min;AL;Jahr;1;14;120;145
+CKRE;Krea.Cl.;Kreatininclearance;ml/min;M;Jahr;14;123;80;160
+CKRE;Krea.Cl.;Kreatininclearance;ml/min;W;Jahr;14;123;75;130
+KRUK;Krea U;Kreatinin/Urin;g/l;AL;Jahr;0;123;0,6;1,8
+KREU;Krea U;Kreatinin Urin /Zeit;g/Zeit;AL;Jahr;0;14;;2
+KREU;Krea U;Kreatinin Urin /Zeit;g/Zeit;M;Jahr;14;123;0,7;2
+KREU;Krea U;Kreatinin Urin /Zeit;g/Zeit;W;Jahr;14;123;0,5;1,8
+QuAKU;Alb/Krea;Quot. Albumin/Krea U;mg/g Krea;AL;Jahr;0;123;;30
+ROTA;Rotavir;Rotaviren/Stuhl;;AL;Jahr;0;123;;0
+A1MU;a1-Mikro;alpha1-Mikrogl.U;mg/l;AL;Jahr;0;123;0;12
+ALBI;Alb.imm.;Serum-Albumin immunol.;g/l;AL;Jahr;0;1;30;52
+ALBI;Alb.imm.;Serum-Albumin immunol.;g/l;AL;Jahr;1;123;35;62
+B2MS;ß2MiGlS;beta2-Mikroglob/S.;mg/l;AL;Jahr;0;60;0,8;2,4
+B2MS;ß2MiGlS;beta2-Mikroglob/S.;mg/l;AL;Jahr;61;123;;3
+B2MU;ß2MiGlU;beta2-Mikroglob/Urin;ug/l;AL;Jahr;0;123;;0,3
+B12;Vit.B12;Vitamin B12;pg/ml;AL;Jahr;0;1;220;1400
+B12;Vit.B12;Vitamin B12;pg/ml;AL;Jahr;2;3;400;1200
+B12;Vit.B12;Vitamin B12;pg/ml;AL;Jahr;4;123;175;700
+FOLS;Folsäure;Folsäure;ng/ml;AL;Jahr;0;1;6;23
+FOLS;Folsäure;Folsäure;ng/ml;AL;Jahr;1;123;5;16
+VITD;VitD;Vitamin D total;ng/ml;AL;Jahr;0;123;30;100
+HCY;HoCyst;Homocystein;umol/L;AL;Jahr;0;123;4;10
+IGAS;IgA;Immunglobulin-A;g/l;AL;Tag;0;7;0,01;0,06
+IGAS;IgA;Immunglobulin-A;g/l;AL;Woche;1;12;0,05;0,34
+IGAS;IgA;Immunglobulin-A;g/l;AL;Monat;3;12;0,1;0,9
+IGAS;IgA;Immunglobulin-A;g/l;AL;Jahr;1;6;0,2;2,2
+IGAS;IgA;Immunglobulin-A;g/l;AL;Jahr;6;16;0,4;3
+IGAS;IgA;Immunglobulin-A;g/l;AL;Jahr;16;123;0,7;5
+IGMS;IgM;Immunglobulin-M;g/l;AL;Tag;0;7;0,06;0,21
+IGMS;IgM;Immunglobulin-M;g/l;AL;Woche;1;24;0,17;0,66
+IGMS;IgM;Immunglobulin-M;g/l;AL;Monat;5;12;0,26;1,2
+IGMS;IgM;Immunglobulin-M;g/l;AL;Jahr;1;6;0,4;2
+IGMS;IgM;Immunglobulin-M;g/l;AL;Jahr;7;18;0,6;2,6
+IGMS;IgM;Immunglobulin-M;g/l;AL;Jahr;19;123;0,4;2,3
+IGGS;IgG;Immunglobulin-G;g/l;AL;Tag;0;7;6,6;17,5
+IGGS;IgG;Immunglobulin-G;g/l;AL;Woche;1;4;3,9;10,5
+IGGS;IgG;Immunglobulin-G;g/l;AL;Monat;1;6;2;7
+IGGS;IgG;Immunglobulin-G;g/l;AL;Monat;6;12;2,9;9,5
+IGGS;IgG;Immunglobulin-G;g/l;AL;Jahr;1;6;3,6;14
+IGGS;IgG;Immunglobulin-G;g/l;AL;Jahr;6;18;5,9;15,5
+IGGS;IgG;Immunglobulin-G;g/l;AL;Jahr;18;123;7;16
+IGMN;IgM N;IgM  (niedrige Konz.);g/l;AL;Tag;0;7;0,06;0,21
+IGMN;IgM N;IgM  (niedrige Konz.);g/l;AL;Woche;1;24;0,17;0,66
+IGMN;IgM N;IgM  (niedrige Konz.);g/l;AL;Monat;5;12;0,26;1,2
+IGMN;IgM N;IgM  (niedrige Konz.);g/l;AL;Jahr;1;6;0,4;2
+IGMN;IgM N;IgM  (niedrige Konz.);g/l;AL;Jahr;7;18;0,6;2,6
+IGMN;IgM N;IgM  (niedrige Konz.);g/l;AL;Jahr;19;123;0,4;2,3
+IGAN;IgA N;IgA  (niedrige Konz.);g/l;AL;Tag;0;7;0,01;0,06
+IGAN;IgA N;IgA  (niedrige Konz.);g/l;AL;Woche;1;12;0,05;0,34
+IGAN;IgA N;IgA  (niedrige Konz.);g/l;AL;Monat;3;12;0,1;0,9
+IGAN;IgA N;IgA  (niedrige Konz.);g/l;AL;Jahr;1;6;0,2;2,2
+IGAN;IgA N;IgA  (niedrige Konz.);g/l;AL;Jahr;6;16;0,4;3
+IGAN;IgA N;IgA  (niedrige Konz.);g/l;AL;Jahr;16;123;0,7;5
+HPXS;Haemopex;Haemopexin;g/l;AL;Jahr;0;14;0,4;1,3
+HPXS;Haemopex;Haemopexin;g/l;AL;Jahr;15;123;0,5;1,2
+HAPS;Hapto;Haptoglobin;g/l;AL;Monat;0;12;0,02;3
+HAPS;Hapto;Haptoglobin;g/l;AL;Jahr;1;16;0,2;2
+HAPS;Hapto;Haptoglobin;g/l;AL;Jahr;16;123;0,3;2
+MYO;Myoglobin;Myoglobin;ng/ml;AL;Jahr;0;123;20;60
+CKma;MBmass;CK-MB-Massenkonz.;ng/ml;AL;Jahr;0;1;;6
+CKma;MBmass;CK-MB-Massenkonz.;ng/ml;W;Jahr;1;123;;3,8
+CKma;MBmass;CK-MB-Massenkonz.;ng/ml;M;Jahr;1;123;;6,7
+TNT;TropT;card.Troponin T hs;ng/ml;AL;Jahr;0;123;;0,014
+TNTS;TropTS;card.Troponin T hs;ng/l;AL;Jahr;0;123;;14
+COPE;CoPe;Copeptin;pmol/l;M;Jahr;0;123;;10
+COPE;CoPe;Copeptin;pmol/l;W;Jahr;0;123;;10
+FER;Ferritin;Ferritin;ng/ml;AL;Monat;0;1;150;450
+FER;Ferritin;Ferritin;ng/ml;AL;Monat;2;3;80;500
+FER;Ferritin;Ferritin;ng/ml;AL;Monat;3;12;20;200
+FER;Ferritin;Ferritin;ng/ml;AL;Jahr;1;6;20;200
+FER;Ferritin;Ferritin;ng/ml;M;Jahr;7;123;30;400
+FER;Ferritin;Ferritin;ng/ml;W;Jahr;7;49;15;150
+FER;Ferritin;Ferritin;ng/ml;W;Jahr;50;123;20;400
+QuFER;QuFER;Ferritin-Index;;AL;Jahr;0;123;;3,2
+HC25;Hepcid;Hepcidin-25;ng/ml;AL;Jahr;0;123;1;39,3
+PSA;PSA;Prostataspez.Ag.(ECLIA);ng/ml;M;Jahr;1;40;0;4
+PSA;PSA;Prostataspez.Ag.(ECLIA);ng/ml;M;Jahr;40;123;0;4
+fPSA;freiesPSA;freies PSA (ECLIA);ng/ml;M;Jahr;15;123;;1
+PSAQ;fPSA/PSA;Quotient fPSA/PSA;%;M;Jahr;15;123;20;40
+S100;S100;S100;ng/ml;AL;Jahr;0;123;0,02;0,105
+NSE;NSE;NSE (ECLIA);ng/ml;AL;Jahr;0;123;;16
+CA125;CA125;CA 125 (ECLIA);U/ml;AL;Jahr;0;123;;35
+CA153;CA153;CA 15-3 (ECLIA);U/ml;AL;Jahr;0;120;;27
+CA199;CA 199;CA 19-9 (ECLIA);U/ml;AL;Jahr;1;120;;27
+CEA;CEA;CEA (ECLIA);ng/ml;AL;Jahr;0;120;;5
+CYF;CYFRA;Cyfra 21-1 (ECLIA);ng/ml;AL;Jahr;0;120;;3,3
+C3;C3c;Complement C3c;g/l;AL;Tag;0;7;0,61;1,27
+C3;C3c;Complement C3c;g/l;AL;Woche;1;52;0,7;1,8
+C3;C3c;Complement C3c;g/l;AL;Jahr;1;123;0,9;1,8
+C4;C4;Complement C4;g/l;AL;Tag;0;6;0,14;0,37
+C4;C4;Complement C4;g/l;AL;Woche;1;8;0,07;0,24
+C4;C4;Complement C4;g/l;AL;Monat;3;12;0,1;0,4
+C4;C4;Complement C4;g/l;AL;Jahr;1;123;0,1;0,4
+PCT;PCT;Procalcitonin;ng/ml;AL;Jahr;0;123;0;0,05
+IL1R;IL1ra;IL1receptor antag.;ng/l;AL;Jahr;0;123;;400
+IL10;IL10;Interleukin 10;ng/l;AL;Jahr;0;123;;9,1
+IL6;IL6;Interleukin 6;ng/l;AL;Jahr;18;123;2;4
+IL8;IL8;Interleukin 8;ng/l;AL;Jahr;0;123;;70
+COES;Coerul;Coeruloplasmin;g/l;AL;Jahr;0;123;0,18;0,45
+GAL3;Gal-3;Galectin-3;ng/ml;AL;Jahr;0;123;1,9;14,3
+F_aP53;anti-p53;anti-p53 (ECLIA);µg/ml;AL;Jahr;0;120;0,02;100
+FER_e;FER_elecsys;Ferritin (ECLIA);ng/ml;M;Jahr;20;60;30;400
+FER_e;FER_elecsys;Ferritin (ECLIA);ng/ml;W;Jahr;17;60;13;150
+AMIO;Amiod;Amiodaron;mg/l;AL;Jahr;0;123;0,7;2,5
+DESA;Des.amio;Desethylamiodaron;mg/l;AL;Jahr;0;123;0,42;1,5
+CYAR;CyAmk;Cyclosp.A monokl.;ng/ml;AL;Jahr;0;123;150;250
+CYAT;Cy-A pol;Cyclosp.A polykl.;ng/ml;AL;Jahr;0;123;300;600
+DIGO;Digoxin;Digoxin;ug/l;AL;Jahr;0;123;0,5;2
+DIGI;Digitox;Digitoxin;ug/l;AL;Jahr;0;123;10;30
+GEND;Genta Tal;Gentamicin (vor Gabe);mg/l;AL;Jahr;0;123;0,5;2
+GENP;Genta P;Gentamicin (nach Gabe);mg/l;AL;Jahr;0;123;5;10
+GENT;Gentamy;Gentamicin;mg/l;AL;Jahr;0;123;0,5;10
+NETP;Netil P;Netilmycin Peak;mg/l;AL;Jahr;0;123;5;12
+NETD;Netil Tal;Netilmycin (vor Gabe);mg/l;AL;Jahr;0;123;;3
+TOBP;Tobra P;Tobramycin Peak;mg/l;AL;Jahr;0;123;5;10
+TOBD;Tobra Tal;Tobramycin (vor Gabe);mg/l;AL;Jahr;0;123;;2
+VANT;Vanco Tal;Vancomycin (vor Gabe);mg/l;AL;Jahr;0;123;10;15
+VANP;Vanco na;Vancomycin (nach Gabe);mg/l;AL;Jahr;0;123;20;40
+PHEB;Phenobar;Phenobarbital;mg/l;AL;Jahr;0;123;10;40
+DPH;DPH;Diphenylhydantoin;mg/l;AL;Jahr;0;123;10;20
+THEO;Theophy;Theophyllin;mg/l;AL;Jahr;0;123;8;20
+AMID;Amika Tal;Amikacin (vor nächst. Dosis);mg/l;AL;Jahr;0;123;;5
+AMIP;Amika P;Amikacin Peak;mg/l;AL;Jahr;0;123;15;25
+CARB;Carbamaz;Carbamazepin;mg/l;AL;Jahr;0;123;4;11
+FLEC;Flecain;Flecainid;mg/l;AL;Jahr;0;123;0,2;1
+LIDO;Lidocain;Lidocain;mg/l;AL;Jahr;0;123;1,5;5
+PRIM;Primidon;Primidon;mg/l;AL;Jahr;0;123;5;15
+PROP;Propran;Propranolol;ng/ml;AL;Jahr;0;123;20;300
+TOBR;Tobramy;Tobramycin;mg/l;AL;Jahr;0;123;2;10
+proBNP;proBNP;NT-proBNP;ng/l;W;Jahr;16;49;;170
+proBNP;proBNP;NT-proBNP;ng/l;W;Jahr;50;59;;250
+proBNP;proBNP;NT-proBNP;ng/l;W;Jahr;60;123;;400
+proBNP;proBNP;NT-proBNP;ng/l;M;Jahr;16;49;;100
+proBNP;proBNP;NT-proBNP;ng/l;M;Jahr;50;59;;172
+proBNP;proBNP;NT-proBNP;ng/l;M;Jahr;60;123;;280
+proBNP;proBNP;NT-proBNP;ng/l;AL;Jahr;0;3;;320
+proBNP;proBNP;NT-proBNP;ng/l;AL;Jahr;4;6;;190
+proBNP;proBNP;NT-proBNP;ng/l;AL;Jahr;7;9;;145
+proBNP;proBNP;NT-proBNP;ng/l;AL;Jahr;10;14;;360
+proBNP;proBNP;NT-proBNP;ng/l;AL;Jahr;15;16;;200
+TSH;TSH bas.;TSH basal;mU/L;AL;Monat;0;1;1,1;18
+TSH;TSH bas.;TSH basal;mU/L;AL;Monat;1;12;1;8
+TSH;TSH bas.;TSH basal;mU/L;AL;Jahr;1;5;0,8;6,3
+TSH;TSH bas.;TSH basal;mU/L;AL;Jahr;6;10;0,8;5,4
+TSH;TSH bas.;TSH basal;mU/L;AL;Jahr;11;14;0,7;4,6
+TSH;TSH bas.;TSH basal;mU/L;AL;Jahr;15;18;0,5;4,3
+TSH;TSH bas.;TSH basal;mU/L;M;Jahr;19;123;0,3;4
+TSH;TSH bas.;TSH basal;mU/L;W;Jahr;19;123;0,3;4
+FT3;FT3;Freies Trijodthyronin;pg/ml;AL;Tag;0;2;3;9
+FT3;FT3;Freies Trijodthyronin;pg/ml;AL;Tag;3;30;3;5
+FT3;FT3;Freies Trijodthyronin;pg/ml;AL;Monat;1;12;2;6
+FT3;FT3;Freies Trijodthyronin;pg/ml;AL;Jahr;1;70;2;4,3
+FT3;FT3;Freies Trijodthyronin;pg/ml;AL;Jahr;71;123;1,4;3,8
+FT4;FT4;Freies Thyroxin;ng/dl;AL;Tag;0;2;1,6;3,8
+FT4;FT4;Freies Thyroxin;ng/dl;AL;Tag;3;30;1,5;3
+FT4;FT4;Freies Thyroxin;ng/dl;AL;Monat;1;12;1,1;1,8
+FT4;FT4;Freies Thyroxin;ng/dl;AL;Jahr;1;50;0,9;1,7
+FT4;FT4;Freies Thyroxin;ng/dl;AL;Jahr;51;70;0,7;1,6
+FT4;FT4;Freies Thyroxin;ng/dl;AL;Jahr;71;123;0,65;1,7
+CORS;Cortisol;Cortisol;µg/dl;AL;Jahr;0;123;6;18
+ST2;ST2;ST2;ng/ml;AL;Jahr;0;120;;35
+ALDS;Aldo;Aldosteron basal;ng/l;AL;Jahr;0;1;300;1300
+ALDS;Aldo;Aldosteron basal;ng/l;AL;Jahr;1;15;50;500
+ALDS;Aldo;Aldosteron basal;ng/l;AL;Jahr;15;123;10;160
+Renin;Renin;aktives Renin basal;pg/ml;AL;Jahr;20;40;3,6;20
+Renin;Renin;aktives Renin basal;pg/ml;AL;Jahr;41;60;1,1;20
+Renin;Renin;aktives Renin basal;pg/ml;AL;Jahr;61;123;0,1;16
+Renin;Renin;aktives Renin basal;pg/ml;AL;Jahr;0;19;4;40
+ReninT;Renin;akt. Renin supprim.;pg/ml;AL;Jahr;20;40;3,6;20
+ReninT;Renin;akt. Renin supprim.;pg/ml;AL;Jahr;61;123;0,1;16
+ReninT;Renin;akt. Renin supprim.;pg/ml;AL;Jahr;41;60;1,1;20
+ReninT;Renin;akt. Renin supprim.;pg/ml;AL;Jahr;0;19;3;30
+ReninH;Renin;akt. Renin stimuliert;pg/ml;AL;Jahr;20;40;5;40
+ReninH;Renin;akt. Renin stimuliert;pg/ml;AL;Jahr;41;60;2;60
+ReninH;Renin;akt. Renin stimuliert;pg/ml;AL;Jahr;61;123;0,4;35
+ReninH;Renin;akt. Renin stimuliert;pg/ml;AL;Jahr;0;19;5;60
+RENQ;Reninqu.;Aldo-Renin-Quotient;;M;Jahr;18;54;1,4;14,2
+RENQ;Reninqu.;Aldo-Renin-Quotient;;M;Jahr;55;123;0,9;22,4
+RENQ;Reninqu.;Aldo-Renin-Quotient;;W;Jahr;18;54;0,9;20,3
+RENQ;Reninqu.;Aldo-Renin-Quotient;;W;Jahr;55;123;0,7;25,5
+ALDT;Aldo sup;Aldosteron supp.;ng/l;AL;Jahr;0;1;10;1300
+ALDT;Aldo sup;Aldosteron supp.;ng/l;AL;Jahr;1;15;50;500
+ALDT;Aldo sup;Aldosteron supp.;ng/l;AL;Jahr;15;123;10;160
+ALDH;Aldo sti;Aldosteron stim.;ng/l;AL;Jahr;0;1;20;1600
+ALDH;Aldo sti;Aldosteron stim.;ng/l;AL;Jahr;1;15;50;800
+ALDH;Aldo sti;Aldosteron stim.;ng/l;AL;Jahr;15;123;40;310
+ADRP;Adren;Adrenalin;ng/l;AL;Jahr;0;123;40;80
+ADU;Ad U;Adrenalin Urin;ug/Z;AL;Jahr;0;123;5;20
+NAP;Norad;Noradrenalin;ng/l;AL;Jahr;0;123;150;280
+NOU;Norad U;Noradrenalin Urin;ug/Z;AL;Jahr;0;123;20;100
+DOPP;Dopamin;Dopamin;ng/l;AL;Jahr;0;123;30;80
+COR1;Cort. 8h;Cortisol 8h;ug/dl;AL;Jahr;0;123;15;25
+COR2;Cort.14h;Cortisol 14h;ug/dl;AL;Jahr;0;123;10;20
+CORU;Cort.Urin;ges.Cortisol /Urin;µg/24h;AL;Jahr;0;123;42;218
+FCOU;fr.CortU;freies Cortisol U;ug/Z;AL;Jahr;0;123;30;150
+DOPU;DopaminU;Dopamin U;ug/Z;AL;Jahr;0;123;200;450
+GESC;GKatecho;Ges.Katecholamine;ng/l;AL;Jahr;0;123;200;500
+MENE;Meta U;Metanephrine U;mg/Z;AL;Jahr;0;123;0;1,3
+MENC;Meta/Kre;Metanephrine/Krea;mg/g;AL;Jahr;0;2;;3
+MENC;Meta/Kre;Metanephrine/Krea;mg/g;AL;Jahr;3;10;;2
+MENC;Meta/Kre;Metanephrine/Krea;mg/g;AL;Jahr;11;123;;1,8
+5HIE;5-HIES U;5-HIES U quant.;mg/Z;AL;Jahr;0;123;2;9
+HVA;HVA U;Homovanillinsäure Urin;mg/Z;AL;Jahr;0;123;;6,9
+HVAC;HVA/Krea;HVA/Kreatinin;mg/g;AL;Jahr;0;1;;32,6
+HVAC;HVA/Krea;HVA/Kreatinin;mg/g;AL;Jahr;2;4;;22
+HVAC;HVA/Krea;HVA/Kreatinin;mg/g;AL;Jahr;5;9;;15,1
+HVAC;HVA/Krea;HVA/Kreatinin;mg/g;AL;Jahr;10;19;;12,8
+HVAC;HVA/Krea;HVA/Kreatinin;mg/g;AL;Jahr;20;123;;7,6
+LEUL;Leuko L;Leukozyten/Liquor;10^9/L;AL;Monat;0;1;;0,019
+LEUL;Leuko L;Leukozyten/Liquor;10^9/L;AL;Monat;1;12;;0,01
+LEUL;Leuko L;Leukozyten/Liquor;10^9/L;AL;Jahr;1;14;0;0,009
+LEUL;Leuko L;Leukozyten/Liquor;10^9/L;AL;Jahr;15;123;0;0,005
+TPL;Prot. L;Ges. Protein/Liquor;mg/dl;AL;Woche;0;1;25;70
+TPL;Prot. L;Ges. Protein/Liquor;mg/dl;AL;Woche;1;52;15;45
+TPL;Prot. L;Ges. Protein/Liquor;mg/dl;AL;Jahr;1;123;15;45
+ALBL;Album.L;Albumin/Liquor;mg/dl;AL;Jahr;0;4;;45
+ALBL;Album.L;Albumin/Liquor;mg/dl;AL;Jahr;4;18;10;30
+ALBL;Album.L;Albumin/Liquor;mg/dl;AL;Jahr;19;123;10;35
+GLUL;Gluk L;Glukose/Liquor;mg/dl;AL;Jahr;0;14;60;80
+GLUL;Gluk L;Glukose/Liquor;mg/dl;AL;Jahr;15;123;50;75
+LACL;Lactat L;Lactat/Liquor;mmol/l;AL;Jahr;0;15;1,1;1,8
+LACL;Lactat L;Lactat/Liquor;mmol/l;AL;Jahr;15;123;1,5;2,1
+IGGL;IgG L;IgG /Liquor;mg/l;AL;Jahr;0;123;10;40
