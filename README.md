@@ -1,5 +1,5 @@
 # Analysis_of_Benfords_Law
-
+After importing the entire file locally, you can find the app.py file in the src file, which is the running script for the web app. The data files of the web application are stored in src/uploads, and the web files are stored in src/templates. note: the library files are not uploaded to github last time, so you need to install the required libraries before running the app.py script.
 
 Web_app.py is a web application that you can just run.
 
